@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+}
+
+body {
+    background-color:  #06283D;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 30%;
+    height: 13%;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.search {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search input {
+    text-transform: uppercase;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+    color: #06283D;
+    margin-left: 5px;
+}
+
+.search-btn{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #dff6ff;
+    cursor: pointer;
+    color: #06283D;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+.search-btn:hover {
+    background-color: #06283D;
+    color: #dff6ff;
+}
+
+
+.ERROR404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    display: none;
+    text-align: center;
+}
+
+.ERROR404 p{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.weather-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.weather-box img{
+    width: 45%;
+    margin-top: 10px;
+}
+
+.temperature {
+    color: #06283D;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #06283D;
+}
+
+.weather-detail {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.wind{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.text p {
+    margin-left: 10px;
+    color: #06283D;
+    font-size: 20px;
+}
+
+.text span {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #06283D;
+    font-weight: 800;
+}
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fadeIn{
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
